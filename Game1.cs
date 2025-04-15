@@ -8,7 +8,7 @@ namespace Monogame_assignment_1
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        Texture2D lakeTexture;
+        Texture2D lakeTexture, turtleDucklingTexture;
 
         public Game1()
         {
@@ -34,6 +34,7 @@ namespace Monogame_assignment_1
 
             // TODO: use this.Content to load your game content here
             lakeTexture = Content.Load<Texture2D>("Lake");
+            turtleDucklingTexture = Content.Load<Texture2D>("Turtle duckling no background");
         }
 
         protected override void Update(GameTime gameTime)
@@ -53,7 +54,8 @@ namespace Monogame_assignment_1
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
 
-
+            _spriteBatch.Draw(lakeTexture, new Vector2(0, 0), Color.White);
+            _spriteBatch.Draw(turtleDucklingTexture, new Vector2(100, 400), Color.White);
 
             _spriteBatch.End();
 

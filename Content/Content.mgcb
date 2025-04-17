@@ -49,7 +49,7 @@
 /processorParam:TextureFormat=Color
 /build:X:/My Drive/Downloads/Images/Animals/Turtle ducks/Brown turtle duckling no background.png;Brown turtle duckling no background.png
 
-#begin Yellow turtle duckling no background.png
+#begin X:/My Drive/Downloads/Images/Animals/Turtle ducks/Turtle duck no background.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -59,5 +59,17 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Yellow turtle duckling no background.png
+/build:X:/My Drive/Downloads/Images/Animals/Turtle ducks/Turtle duck no background.png;Turtle duck no background.png
+
+#begin X:/My Drive/Downloads/Images/Animals/Turtle ducks/Yellow turtle duckling no background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:X:/My Drive/Downloads/Images/Animals/Turtle ducks/Yellow turtle duckling no background.png;Yellow turtle duckling no background.png
 

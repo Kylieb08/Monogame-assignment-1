@@ -9,6 +9,7 @@ namespace Monogame_assignment_1
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         Texture2D lakeTexture, turtleDucklingTexture, yellowTurtleDucklingTexture, brownTurtleDucklingTexture;
+        Texture2D turtleDuckTexture;
 
         public Game1()
         {
@@ -37,6 +38,7 @@ namespace Monogame_assignment_1
             turtleDucklingTexture = Content.Load<Texture2D>("Turtle duckling no background");
             yellowTurtleDucklingTexture = Content.Load<Texture2D>("Yellow turtle duckling no background");
             brownTurtleDucklingTexture = Content.Load<Texture2D>("Brown turtle duckling no background");
+            turtleDuckTexture = Content.Load<Texture2D>("Turtle duck no background");
         }
 
         protected override void Update(GameTime gameTime)
@@ -58,8 +60,9 @@ namespace Monogame_assignment_1
 
             _spriteBatch.Draw(lakeTexture, new Vector2(0, 0), Color.White);
             _spriteBatch.Draw(turtleDucklingTexture, new Vector2(100, 400), Color.White);
-            _spriteBatch.Draw(yellowTurtleDucklingTexture, new Vector2(400, 200), Color.White);
-            _spriteBatch.Draw(brownTurtleDucklingTexture, new Vector2(200, 250), Color.White);
+            _spriteBatch.Draw(yellowTurtleDucklingTexture, new Vector2(720, 500), Color.White);
+            _spriteBatch.Draw(brownTurtleDucklingTexture, new Vector2(700, 300), Color.White);
+            _spriteBatch.Draw(turtleDuckTexture, new Vector2(400, 375), Color.White);
 
             _spriteBatch.End();
 

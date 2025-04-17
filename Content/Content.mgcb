@@ -25,6 +25,18 @@
 /processorParam:TextureFormat=Color
 /build:Lake.jpg
 
+#begin Turtle duck reflection no background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Turtle duck reflection no background.png
+
 #begin Turtle duckling no background.png
 /importer:TextureImporter
 /processor:TextureProcessor
